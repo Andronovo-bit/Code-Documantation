@@ -99,7 +99,7 @@ const FillInTheBlank: React.FC<FillInTheBlankProps> = ({ questions }) => {
             {!showResults && !isEmpty(userAnswers) && (
               <Button onClick={checkAnswers}>Check Answers</Button>
             )}
-            {(showResults && questionIndex < questions.length - 1) && (
+            {showResults && questionIndex < questions.length - 1 && (
               <Button onClick={nextQuestion}>Next Question</Button>
             )}
             {questionIndex === questions.length - 1 && (

@@ -15,9 +15,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
-    "@docusaurus/preset-classic": "2.4.1",
-    "@docusaurus/theme-mermaid": "^2.4.1",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/theme-mermaid": "^2.4.3",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@markprompt/docusaurus-theme-search": "^0.8.1",
@@ -39,8 +39,8 @@
     "react-string-replace": "^1.1.1"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^2.4.1",
-    "@docusaurus/module-type-aliases": "^2.4.1",
+    "@docusaurus/eslint-plugin": "^2.4.3",
+    "@docusaurus/module-type-aliases": "^2.4.3",
     "@tsconfig/docusaurus": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",

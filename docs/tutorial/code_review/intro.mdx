@@ -1,0 +1,50 @@
+---
+sidebar_position: 5
+---
+
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+
+# Pull Request Review Process
+
+This document serves as a guide to help you organize your review process for pull requests submitted to our GitHub repository.
+
+### Step 1: Review the Pull Request
+- Read the pull request title and description.
+- Try to understand what problem the changes address or what feature they add.
+- Review the code carefully, identify any errors or potential improvements.
+
+### Step 2: Code Review
+- Check the readability of the code.
+- Ensure compatibility with the existing codebase.
+- Identify potential sources of errors.
+- Verify if naming and style guidelines are followed.
+
+### Step 3: Functional Testing
+- Test the changes in the pull request for functionality.
+- Confirm that the proposed changes achieve the intended outcome.
+- If applicable, verify that any new features or modifications work as expected.
+
+### Step 4: Security Review
+- Check for potential security vulnerabilities in the code changes.
+- Verify that any sensitive information is handled appropriately.
+
+### Step 5: Provide Feedback
+- If you find any issues, provide clear and constructive feedback.
+- Suggest specific changes or improvements that need to be made.
+- Be respectful and considerate in your feedback.
+
+### Step 6: Approval
+- Once you are satisfied with the changes, approve the pull request.
+
+## Pull Request Review Checklist
+<FormGroup style={{marginLeft:10}}>
+    <FormControlLabel control={<Checkbox defaultChecked/>} label="Reviewed pull request title and description." />
+    <FormControlLabel control={<Checkbox  />} label="Checked code readability and style." />
+    <FormControlLabel control={<Checkbox  />} label="Verified compatibility with existing codebase." />
+    <FormControlLabel control={<Checkbox  />} label="Tested for functionality." />
+    <FormControlLabel control={<Checkbox  />} label="Conducted security review." />
+    <FormControlLabel control={<Checkbox  />} label="Provided clear and constructive feedback." />
+    <FormControlLabel control={<Checkbox  />} label="Approved the pull request." />
+</FormGroup>
